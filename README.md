@@ -1,7 +1,6 @@
-Docker - Docking System Tray
+# Docker - Docking System Tray
 
-Copyright (C) 2003  Ben Jansens
-
+**Copyright (C) 2003**  Ben Jansens
 
 What is Docker?
 
@@ -9,7 +8,6 @@ Docker is a docking application (WindowMaker dock app) which acts as a system
 tray for KDE3 and GNOME2. It can be used to replace the panel in either
 environment, allowing you to have a system tray without running the KDE/GNOME
 panel.
-
 
 What window managers can I use Docker with?
 
@@ -41,24 +39,22 @@ Me, of course. That is, Ben Jansens. I can be reached at <ben@orodu.net>. I am
 the founder and currently the project head of sorts for the Openbox project.
 
 
-===============================
-|| INSTALLATION INSTRUCTIONS ||
-===============================
+## INSTALLATION INSTRUCTIONS 
 
 To install this application, simply do the following:
 
+```
 % make
 (as root)
 # make install
+```
 
 You can change a couple of things in the Makefile if you want to:
 PREFIX defines where the program will be installed to.
 XLIBPATH defines where your libX11.so is located. If it is not on the standard
          /usr/X11R6/lib path, then you will have to change this.
 
-==================
-|| LICENSE INFO ||
-==================
+## LICENSE INFO
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
